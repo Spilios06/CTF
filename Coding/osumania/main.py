@@ -1,9 +1,10 @@
-length = 13
-obj = []
+import fileinput
 
-def lines(line):
-    inp = line
-    return inp
+def lines():
+    for i in fileinput.input():
+        obj = []
+        obj.append(line)
+        return obj
 
 def mklist():
     for j in range(length):
@@ -16,3 +17,5 @@ def mklist():
 def outp():
     answere = 1
     print(answere)
+
+lines()
