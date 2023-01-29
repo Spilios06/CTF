@@ -1,7 +1,7 @@
-#+title: Writeups
+# Writeups
 
 This repo has all the challenges that I was able to solve from the sekai CTF 2022, some of these I solved while the CTF was active, others I revisited after the CTF was over, regardless I have included all the challenge files as well as writeups for each challenge.
 
-* Disclamer
+## Disclamer
 
 Not all the code here is completely original/my own, obviously the challenges were written by the CTF organisers, additionally some of my solutions may contain snippets of code from my fellow teamates over at ECSCTeamGreece or from other sources online.

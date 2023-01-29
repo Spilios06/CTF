@@ -1,3 +1,10 @@
+# Writeup for Matrix Lab 1
+
+## First look at things
+
+First thing I notice after downloading the file is that it is a java class, immediatelly i decompile it to see java src and thankfully it is unobfuscated so I wont have to look through the actuall bytecode.
+
+```java
 import java.util.Scanner;
 
 public class Matrix {
@@ -93,3 +100,13 @@ public class Matrix {
       return "oz]{R]3l]]B#50es6O4tL23Etr3c10_F4TD2".equals(var10001 + encrypt(getArray(var1, 1, 4), 1) + encrypt(getArray(var1, 2, 3), 0));
    }
 }
+
+```
+
+## Identifying the task
+
+After looking through the source code a bit I realise this program is a prompt which asks you to enter the flag and it proceeds to check if it is indeed the flag or not by transforming it and comparing it to the transformed version of the flag.
+
+## Solution
+
+Obviously the solution here is to reverse the encryption functions and get back our flag which seemed to do the trick, you can see a reversed version of the fuctions in python in Solution.py
