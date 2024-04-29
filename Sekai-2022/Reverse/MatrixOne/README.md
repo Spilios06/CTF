@@ -2,7 +2,7 @@
 
 ## First look at things
 
-First thing I notice after downloading the file is that it is a java class, immediatelly i decompile it to see java src and thankfully it is unobfuscated so I wont have to look through the actuall bytecode.
+First thing I notice after downloading the file is that it is a java class, immediately i decompile it to see java src and thankfully it is unobfuscated so I wont have to look through the actual bytecode.
 
 ```java
 import java.util.Scanner;
