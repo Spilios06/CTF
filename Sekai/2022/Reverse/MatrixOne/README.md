@@ -103,10 +103,6 @@ public class Matrix {
 
 ```
 
-## Identifying the task
-
-After looking through the source code a bit I realise this program is a prompt which asks you to enter the flag and it proceeds to check if it is indeed the flag or not by transforming it and comparing it to the transformed version of the flag.
-
 ## Solution
 
-Obviously the solution here is to reverse the encryption functions and get back our flag which seemed to do the trick, you can see a reversed version of the fuctions in python in Solution.py
+After a brief look at the source code we can see that the script is expecting a 43 character long flag which is encrypted using various operations defined in the encrypt() method. Obviously the solution here is to reverse the encryption function and get back our flag which seemed to do the trick, you can see a reversed version of the method in solution.py, the string we needed to decrypt was conviently hardcoded into the java program we decompiled earlier; namely the string "oz]{R]3l]]B#50es6O4tL23Etr3c10_F4TD2".
